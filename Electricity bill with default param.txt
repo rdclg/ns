@@ -1,0 +1,10 @@
+ Electricity bill with default parameter
+function bill(units, rate = 5) {
+    return units * rate;
+}
+console.log(bill(100));
+console.log(bill(100, 6));
+Run: node q26.js
+Expected output:
+500
+600

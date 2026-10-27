@@ -1,0 +1,12 @@
+ Simple library add, search, list
+let books = [];
+function addBook(name) { books.push({ name: name, available: true }); }
+function searchBook(name) { return books.find(b => b.name === name); }
+function listBooks() { console.log(books); }
+addBook("JavaScript");
+console.log(searchBook("JavaScript"));
+listBooks();
+Run: node q22.js
+Expected output:
+{ name: 'JavaScript', available: true }
+[ { name: 'JavaScript', available: true } ]

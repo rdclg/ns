@@ -1,0 +1,12 @@
+ Largest of three numbers
+let a = 10, b = 25, c = 15;
+if (a >= b && a >= c) {
+    console.log(a);
+} else if (b >= a && b >= c) {
+    console.log(b);
+} else {
+    console.log(c);
+}
+Run: node q4.js
+Expected output:
+25

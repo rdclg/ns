@@ -1,0 +1,8 @@
+ Implement arrays
+let fruits = ["Apple", "Mango", "Banana"];
+console.log(fruits);
+console.log(fruits[0]);
+Run: node q7.js
+Expected output:
+[ 'Apple', 'Mango', 'Banana' ]
+Apple

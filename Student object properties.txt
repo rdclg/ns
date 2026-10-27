@@ -1,0 +1,10 @@
+ Student object properties
+let student = { name: "Aman", roll: 12, course: "BSc IT" };
+console.log(student.name);
+console.log(student.roll);
+console.log(student.course);
+Run: node q14.js
+Expected output:
+Aman
+12
+BSc IT

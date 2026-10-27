@@ -1,0 +1,8 @@
+ Simple interest
+function interest(p, r, t) {
+    return (p * r * t) / 100;
+}
+console.log(interest(1000, 5, 2));
+Run: node q18.js
+Expected output:
+100

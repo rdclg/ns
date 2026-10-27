@@ -1,0 +1,8 @@
+Square, cube, even/odd
+function square(n) { return n * n; }
+function cube(n) { return n * n * n; }
+function evenOdd(n) { return n % 2 === 0 ? "Even" : "Odd"; }
+console.log(square(3), cube(3), evenOdd(3));
+Run: node q20.js
+Expected output:
+9 27 Odd

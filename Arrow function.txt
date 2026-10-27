@@ -1,0 +1,8 @@
+ Arrow function
+const greet = () => {
+    console.log("Hello");
+};
+greet();
+Run: node q8.js
+Expected output:
+Hello

@@ -1,0 +1,10 @@
+ Student details in an array of objects
+let students = [
+    { name: "Aman", marks: 80 },
+    { name: "Riya", marks: 90 }
+];
+students.forEach(s => console.log(s.name, s.marks));
+Run: node q15.js
+Expected output:
+Aman 80
+Riya 90

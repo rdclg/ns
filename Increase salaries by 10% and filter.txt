@@ -1,0 +1,10 @@
+ Increase salaries by 10% and filter
+let salaries = [10000, 20000, 30000];
+let raised = salaries.map(s => s * 1.10);
+let high = raised.filter(s => s > 20000);
+console.log(raised);
+console.log(high);
+Run: node q21.js
+Expected output:
+[ 11000, 22000, 33000 ]
+[ 22000, 33000 ]

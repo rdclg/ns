@@ -1,0 +1,9 @@
+Arrays and objects
+let student = { name: "Riya", age: 20 };
+let marks = [80, 90, 75];
+console.log(student.name);
+console.log(marks[0]);
+Run: node q12.js
+Expected output:
+Riya
+80

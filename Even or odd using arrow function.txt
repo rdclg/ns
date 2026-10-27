@@ -1,0 +1,6 @@
+ Even or odd using arrow function
+const check = n => n % 2 === 0 ? "Even" : "Odd";
+console.log(check(7));
+Run: node q11.js
+Expected output:
+Odd

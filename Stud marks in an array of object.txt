@@ -1,0 +1,9 @@
+ Student marks in an array of objects
+let students = [
+    { name: "Aman", marks: 75 },
+    { name: "Riya", marks: 88 }
+];
+console.log(students);
+Run: node q16.js
+Expected output:
+[ { name: 'Aman', marks: 75 }, { name: 'Riya', marks: 88 } ]

@@ -1,0 +1,12 @@
+Q1. Operators and control statements
+let a = 10, b = 5;
+console.log("Sum =", a + b);
+if (a > b) {
+    console.log("a is greater");
+} else {
+    console.log("b is greater or equal");
+}
+Run: node q1.js
+Expected output:
+Sum = 15
+a is greater

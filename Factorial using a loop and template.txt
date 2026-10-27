@@ -1,0 +1,10 @@
+Factorial using a loop and template literal
+let n = 5, fact = 1;
+for (let i = 1; i <= n; i++) {
+    fact = fact * i;
+}
+console.log(`Factorial = ${fact}`);
+Run: node q5.js
+Expected output:
+Factorial = 120
+Remember: Factorial of 5 is 5×4×3×2×1.

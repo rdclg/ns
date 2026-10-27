@@ -1,0 +1,13 @@
+ Percentage, grade and result
+let marks = 420; // out of 600
+let percent = marks / 6;
+let grade = percent >= 75 ? "A" : percent >= 50 ? "B" : "C";
+let result = percent >= 35 ? "Pass" : "Fail";
+console.log("Percentage =", percent + "%");
+console.log("Grade =", grade);
+console.log(result);
+Run: node q17.js
+Expected output:
+Percentage = 70%
+Grade = B
+Pass

@@ -1,0 +1,10 @@
+ Array push, pop, shift, unshift
+let products = ["Pen", "Book", "Bag"];
+products.push("Pencil");
+products.pop();
+products.shift();
+products.unshift("Scale");
+console.log(products);
+Run: node q19.js
+Expected output:
+[ 'Scale', 'Book', 'Bag' ]

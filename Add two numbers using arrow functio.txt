@@ -1,0 +1,6 @@
+ Add two numbers using arrow function
+const sum = (a, b) => a + b;
+console.log(sum(10, 20));
+Run: node q9.js
+Expected output:
+30

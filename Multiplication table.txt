@@ -1,0 +1,11 @@
+ Multiplication table
+let n = 5;
+for (let i = 1; i <= 10; i++) {
+    console.log(`${n} x ${i} = ${n * i}`);
+}
+Run: node q10.js
+Expected output:
+5 x 1 = 5
+5 x 2 = 10
+...
+5 x 10 = 50
